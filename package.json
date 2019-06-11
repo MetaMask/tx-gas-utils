@@ -1,0 +1,34 @@
+{
+  "name": "tx-gas-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha ./tests/tx-gas-util-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MetaMask/tx-gas-utils.git"
+  },
+  "keywords": [
+    "ethereum",
+    "metamask"
+  ],
+  "author": "frankiebee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MetaMask/tx-gas-utils/issues"
+  },
+  "homepage": "https://github.com/MetaMask/tx-gas-utils#readme",
+  "dependencies": {
+    "ethjs-query": "^0.3.8",
+    "loglevel": "^1.6.2"
+  },
+  "devDependencies": {
+    "ethereumjs-tx": "1.3.7",
+    "mocha": "^6.1.4"
+  }
+}
